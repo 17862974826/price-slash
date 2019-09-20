@@ -1,0 +1,133 @@
+.headerWrap {
+    height: 1043px;
+    width: 100%;
+    min-width: 1530px;
+}
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-width: 1530px;
+    overflow: hidden;
+    left: 0;
+    box-sizing: border-box;
+    height: 1043px;
+    padding: 30px 0 0;
+}
+.headerInfo {
+    width: 1530px;
+    box-sizing: border-box;
+    padding-left: 24px;
+    height: 100%;
+    margin: 0 auto
+}
+
+.headerWrap .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.header .navbar {
+    height: 73px;
+    display: flex;
+    align-items: center
+}
+
+.header .logo {
+    height: 73px;
+    width: 317px;
+    object-fit: contain;
+    margin-right: 224px;
+}
+
+.header .navbarlist {
+    display: flex;
+}
+
+.header .navbarlist .item {
+    font-size: 18px;
+    width: 88px;
+    min-width: 88px;
+    line-height: 74px;
+    text-align: center;
+    margin-right: 60px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header .navbarlist .firstItem {
+    width: 143px;
+    height: 51px;
+    line-height: 51px;
+    margin-top: 11px;
+    margin-right: 52px;
+    border-radius: 26px;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.header .content {
+    display: flex;
+    min-width: 1264px;
+    align-items: flex-start;
+    overflow: hidden;
+    min-height: 400px;
+    margin-top: 188px;
+}
+
+.header .content  .icon {
+    width: 175px;
+    height: 175px;
+    margin-left: 161px;
+    margin-right: 33px;
+    overflow: hidden;
+}
+
+.header .textWrap {
+    max-width: 567px;
+    margin-right: 47px;
+}
+
+.header .content  .title {
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.header .content  .subTitle {
+    color: #fff;
+    text-align: left;
+    font-size: 64px;
+    line-height: 69px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.header .content .desc{
+    font-size: 29px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Aileron'
+}
+
+.header .content .character{
+    width: 442px;
+    height: 399px;
+    overflow: hidden;
+}
+
+.header .content .button{
+    width: 346px;
+    height: 57px;
+    overflow: hidden;
+    background: #fff;
+    color: #EC5E3E;
+    font-size: 22px;
+    line-height: 57px;
+    text-align: center;
+    border-radius: 29px;
+}
