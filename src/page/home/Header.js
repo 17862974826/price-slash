@@ -22,7 +22,7 @@ function Header() {
                     <ul className="navbarlist">
                     {
                         navbarlist.map((value, index) => {
-                            return <li className={index === 0 ? 'firstItem': 'item' }>{value}</li> 
+                            return <li className={index === 0 ? 'firstItem': 'item' } key={`header-${index}`}>{value}</li> 
                         })
                     }
                     </ul>

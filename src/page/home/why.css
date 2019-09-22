@@ -1,0 +1,159 @@
+.why-wrap {
+    height:2000px;
+    min-width: 1530px;
+    overflow: hidden;
+    min-height: 2000px;
+    padding-top: 170px;
+}
+
+.why-wrap .why-back-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 786px;
+    height: 898px;
+    object-fit: cover
+}
+
+.why-wrap .why-bg {
+    width: 100%;
+    height: 1601px;
+    object-fit: contain
+}
+
+.why-wrap .why-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+
+.why-wrap .why-content {
+    margin: 0 auto ;
+    position: relative;
+    width: 1530px;
+    min-width: 1530px;
+    height:2000px;
+}
+
+.why-wrap .why-title {
+    font-size: 40px;
+    color: #630218;
+    font-weight: bold
+}
+
+.why-wrap .why-container{
+    height: 548px;
+    overflow: hidden;
+    margin-top: 105px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around
+}
+.why-wrap .why-icon{
+    width: 207px;
+    height: 116px;
+    overflow: hidden;
+}
+
+.why-wrap .why-icon-wrap{
+    width: 317px;
+    overflow: hidden;
+}
+
+.why-wrap .why-sub-title{
+    font-size: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 50px;
+    margin-bottom: 32px;
+    text-align: center;
+    color: #630218
+}
+
+.why-wrap .why-desc{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color:#667287
+}
+
+.why-wrap .work-title{
+    font-size: 60px;
+    color: #0367FD;
+    font-weight: bold;
+    margin-bottom: 53px;
+}
+
+.why-wrap .work-subTitle {
+    margin: 53px 0 19px 0;
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold
+}
+
+.why-wrap .work-desc {
+    font-size: 20px;
+    margin: 0 auto;
+    color: #667287;
+    line-height: 30px;
+    font-weight: 300;
+    width:  757px;
+    height: 180px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.why-wrap .work-content {
+    min-width: 1077px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 565px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.why-wrap .why-home {
+    width: 473px;
+    height: 465px;
+    overflow: hidden;
+}
+
+.why-wrap .why-data {
+    width: 477px;
+    height: 465px;
+    overflow: hidden;
+}
+
+.why-wrap .why-right-icon {
+    width: 72px;
+    height: 52px;
+    overflow: hidden;
+}
+
+.why-wrap .why-site {
+    position: absolute;
+    top: 0;
+    font-size: 22px;
+    color: #EC5E3E;
+    left: 434px;
+    width: 67px;
+    height: 34px;
+    border:1px solid rgba(236,94,62,1)
+}
+
+.why-wrap .why-edit {
+    position: absolute;
+    top: 0;
+    font-size: 22px;
+    color: #EC5E3E;
+    right: 434px;
+    width: 67px;
+    height: 34px;
+    border:1px solid rgba(236,94,62,1)
+}
