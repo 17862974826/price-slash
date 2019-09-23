@@ -1,0 +1,61 @@
+.me-wrap {
+    min-width: 1530px;
+    min-height: 900px;
+    overflow: hidden;
+}
+
+.me-wrap .me-container {
+    width: 1530px;
+    margin: 0 auto
+}
+
+.me-wrap .me-title {
+   text-align: center;
+   color: #0367FD;
+   width: 1530px;
+   margin-bottom: 78px;
+   font-size: 60px;
+   line-height: 60px;
+   font-weight: bold
+}
+
+.me-content-wrap {
+    width: 1530;
+    min-width: 1530;
+}
+
+.me-content {
+    display: flex;
+    margin: 0 auto;
+    width: 1300px;
+    min-width: 1300px;
+    justify-content: space-between;
+}
+
+.me-item {
+    box-sizing: border-box;
+    padding: 43px 56px 0;
+    width: 373px;
+    height: 623px;
+    overflow: hidden;
+    border: 1px dashed #667287
+}
+
+.me-item-title {
+    margin: 37px 0 57px;
+    font-size: 24px;
+    color: #630218
+}
+
+.me-item-desc {
+    font-size: 14px;
+    color: #667287;
+    line-height: 30px;
+    font-weight: 300
+}
+
+.me-item-pic {
+    width: 260px;
+    height: 141px;
+}
+

@@ -1,0 +1,79 @@
+.pri-wrap {
+    min-width: 1530px;
+    min-height: 856px;
+    overflow: hidden;
+}
+
+.pri-container {
+    width: 1530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 856px;
+    margin: 0 auto;
+}
+
+.pri-wrap .pri-title-wrap{
+    display: flex;
+    height: 150px;
+    width: 1266px;
+    overflow: hidden;
+}
+
+.pri-wrap .pri-title {
+    color: #D93742;
+    font-size: 60px;
+    text-align: left;
+    font-weight: bold;
+    margin-right: 257px;
+}
+
+.pri-wrap .pri-standard {
+    margin-top: 15px;
+    margin-right: 200px;
+    overflow: hidden;
+}
+
+.pri-wrap .pri-content {
+    width: 1266px;
+    min-width: 1266px;
+    min-height: 510px;
+    overflow: hidden;
+}
+
+.pri-wrap .pri-line {
+    background: #979CA6;
+    height: 1px;
+}
+
+.pri-content .pri-item {
+    height: 45px;
+    min-height: 45px;
+    overflow: hidden;
+    display: flex;
+}
+
+.pri-container .pri-item-title {
+    flex: 1;
+    box-sizing: border-box;
+    padding-left: 10px;
+    min-width: 300px;
+    text-align: left;
+    line-height: 45px;
+    margin-right: 182px;
+    color: #630218;
+    font-size: 20px;
+    font-weight: 300
+}
+
+.pri-container .pri-item-symbol {
+    box-sizing: border-box;
+    min-width: 100px;
+    padding-left: 55px;
+    text-align: left;
+    line-height: 45px;
+    margin-right: 340px;
+    color: #630218;
+    font-size: 20px;
+    font-weight: 300
+}

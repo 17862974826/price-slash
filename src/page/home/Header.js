@@ -19,13 +19,15 @@ function Header() {
             <div className="headerInfo">
                 <div className="navbar">
                     <img className="logo" src={require('../../images/logo.png')} alt=""/>
-                    <ul className="navbarlist">
+                    <div className="navbarlist">
                     {
                         navbarlist.map((value, index) => {
-                            return <li className={index === 0 ? 'firstItem': 'item' } key={`header-${index}`}>{value}</li> 
+                            return <a  href="#why" className={index === 0 ? 'firstItem': 'item' } key={`header-${index}`}>
+                                {value}
+                            </a> 
                         })
                     }
-                    </ul>
+                    </div>
                 </div>
                 <div className="content">
                     <img  className="icon" src={require('../../images/icon.png')} alt=""/>

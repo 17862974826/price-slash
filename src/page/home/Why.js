@@ -37,7 +37,7 @@ const bg  = require('../../images/whyBg.png')
 function Why() {
   return (
     <div className="why-wrap">
-        <div className="why-content">
+        <div className="why-content"  name='why' id='why'>
             <img className="why-bg" src={bg} alt=""/>
             <div className="why-info">
                 <h2 className="why-title">Why choose Price Slash?</h2>

@@ -1,0 +1,41 @@
+.footer-wrap {
+    position: relative;
+    min-width: 1530px;
+    min-height: 910px;
+    overflow: hidden;
+}
+
+.footer-wrap .footer-container-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom:  0;
+    left: 0
+
+}
+
+.footer-wrap .footer-container {
+    width: 1393px;
+    position: relative;
+    margin: 0 auto;
+    height:  910px;
+}
+
+.footer-top {
+    height: 180px;
+    background: #fff
+}
+
+.footer-bottom {
+    min-height: 730px;
+    overflow: hidden;
+    background: #F2F5FB
+}
+
+.footer-touch {
+    height: 392px;
+    overflow: hidden;
+    background: #807BFF;
+    box-shadow:0px 22px 57px 0px rgba(134, 255, 130, 0.35);
+    border-radius:30px;
+}
