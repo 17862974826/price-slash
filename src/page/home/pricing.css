@@ -1,11 +1,11 @@
 .pri-wrap {
-    min-width: 1440px;
+    min-width: 1380px;
     min-height: 856px;
     overflow: hidden;
 }
 
 .pri-container {
-    width: 1440px;
+    width: 1380px;
     display: flex;
     flex-direction: column;
     align-items: center;

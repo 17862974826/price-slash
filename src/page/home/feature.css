@@ -1,13 +1,12 @@
 .feature-wrap {
     height: 1220px;
     min-height: 1220px;
-    min-width: 1440px;
+    min-width: 1380px;
 }
 
 .feature-wrap .feature-container {
     display: flex;
     margin: 0 auto;
-    width: 1462px;
     justify-content: center;
     overflow: hidden;
 }
