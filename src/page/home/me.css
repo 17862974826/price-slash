@@ -1,18 +1,18 @@
 .me-wrap {
-    min-width: 1530px;
+    min-width: 1440px;
     min-height: 900px;
     overflow: hidden;
 }
 
 .me-wrap .me-container {
-    width: 1530px;
+    width: 1440px;
     margin: 0 auto
 }
 
 .me-wrap .me-title {
    text-align: center;
    color: #0367FD;
-   width: 1530px;
+   width: 1440px;
    margin-bottom: 78px;
    font-size: 60px;
    line-height: 60px;
@@ -20,8 +20,8 @@
 }
 
 .me-content-wrap {
-    width: 1530;
-    min-width: 1530;
+    width: 1440px;
+    min-width: 1440px;
 }
 
 .me-content {

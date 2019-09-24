@@ -1,6 +1,6 @@
 .why-wrap {
     height:2000px;
-    min-width: 1530px;
+    min-width: 1440px;
     overflow: hidden;
     min-height: 2000px;
     padding-top: 170px;
@@ -34,8 +34,8 @@
 .why-wrap .why-content {
     margin: 0 auto ;
     position: relative;
-    width: 1530px;
-    min-width: 1530px;
+    width: 1440px;
+    min-width: 1440px;
     height:2000px;
 }
 

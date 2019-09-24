@@ -1,13 +1,13 @@
 .headerWrap {
     height: 1043px;
     width: 100%;
-    min-width: 1530px;
+    min-width: 1440px;
 }
 .header {
     position: absolute;
     top: 0;
     width: 100%;
-    min-width: 1530px;
+    min-width: 1440px;
     overflow: hidden;
     left: 0;
     box-sizing: border-box;
@@ -15,7 +15,7 @@
     padding: 30px 0 0;
 }
 .headerInfo {
-    width: 1530px;
+    width: 1440px;
     box-sizing: border-box;
     padding-left: 24px;
     height: 100%;
